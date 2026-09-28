@@ -1,0 +1,46 @@
+autoplay loop muted playsinline
+
+data-aos="fade-up" data-aos-duration="800" data-aos-delay="50" data-aos-anchor-placement="top-bottom"
+
+<video autoplay muted loop playsinline>
+                        <source src="assets/images/banner-bg-video.mp4" type="video/mp4" />
+                    </video>
+
+
+                    .photoSwiper .swiper-wrapper {
+    transition-timing-function: linear;
+}
+
+/* gallery Swiper js start */
+    new Swiper('.gallerySwiper .swiper', {
+        loop: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 3,
+        paginationClickable: true,
+        speed: 7000,
+        autoplay: {
+            delay: 0,
+            disableOnInteraction: false,
+        },
+        spaceBetween: 20,
+        breakpoints: {
+            1920: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            },
+            1366: {
+                slidesPerView: 2.5,
+                spaceBetween: 30
+            },
+            480: {
+                slidesPerView: 1.5,
+                spaceBetween: 10
+            },
+            320: {
+                slidesPerView: 1.5,
+                spaceBetween: 10
+            }
+        }
+    });
+    /* gallery Swiper js end */

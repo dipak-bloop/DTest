@@ -1,0 +1,22 @@
+.subBanner { position: relative; z-index: 2; height: 85vh; display: flex; align-items: flex-end; padding: 0 0 100px 0; }
+.subBanner:before { content: ''; position: absolute; width: 100%; height: 100%; background: linear-gradient(180deg, rgba(0, 22, 39, 0.22) 58.93%, #001627 97.48%); top: 0; left: 0; z-index: 1; }
+.subBanner:after { content: ''; position: absolute; width: 100%; height: 100%; background: linear-gradient(180deg, #001627 11.83%, rgba(0, 22, 39, 0.22) 35.71%); top: 0; left: 0; z-index: 1; }
+.subBannerBgVideo { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.subBannerBgVideo:before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../../images/full-website-bg-image.svg)center center no-repeat; background-size: cover; opacity: 0.7; }
+.subBannerBgVideo:after { content: ''; position: absolute; width: 100%; height: 100%; background: #22346959; mix-blend-mode: multiply; top: 0; left: 0; }
+.subBannerBgVideo video { width: 100%; height: 100%; object-fit: cover; }
+.subBannerInner { position: relative; z-index: 2; }
+.subBannerContent a { margin: 24px 0 0 0; }
+.subBannerContent .subTextMd { font-family: var(--fontSecondary); }
+
+/* textImage2Wrap css */
+.textImage2Wrap { margin: 84px 0; }
+.gridBox { border: 1px solid #959EA2CC; background: #2234693D; padding: 24px 34px 34px 34px; height: 100%; border-radius: 6px; width: 80%; }
+.gridBox h5 { margin: 0 0 24px 0; color: var(--colorSecondary); text-transform: uppercase; }
+.gridBox ul li { font-size: var(--fontSm); font-weight: 500; text-transform: uppercase; letter-spacing: 1px; color: var(--colorBgLight); position: relative; padding: 0 0 0 34px; margin: 0 0 14px 0; }
+.gridBox ul li:before { content: ''; position: absolute; width: 22px; height: 22px; background: url(../../images/tick-icon.svg) center center no-repeat; background-color: #EAEFF329; border-radius: 3px; display: flex; align-items: center; justify-content: center; left: 0; top: -1px; }
+.textBlock { width: 95%; }
+.imageBlock { border-radius: 5px; overflow: clip; width: 95%; height: 100%; }
+.imageBlock img { width: 100%; height: 100%; object-fit: cover; }
+.textBlock .headingXl { color: var(--colorSecondary); }
+.textBlock .subTextMd { margin: 18px 0 34px 0; font-family: var(--fontSecondary); }

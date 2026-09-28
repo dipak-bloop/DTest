@@ -1,0 +1,124 @@
+@media (max-width:1281px) {
+	.counterList .heading4xl { font-size: var(--font2xl); }
+	.timeLineWrapper ul { max-width: 95%; }
+	.timeLineImage { height: 100%; }
+	.mvIconHeading { width: 28%; }
+	.subBanner { height: 120vh; }
+	.subBannerHead br { display: block; }
+	.mvIconHeading .subTextMd { width: 95%; }
+	.banner { height: 110vh; }
+	.logo { width: 120px; }
+	.container, .container-lg, .container-md, .container-sm, .container-xl { max-width: 1240px; }
+	br { display: none; }
+	.fullWrap { width: 100%; }
+	.contact-us .subBanner { height: 70vh; }
+}
+@media (max-width:480px) {
+	:root { --font3xl: 26px; --font2xl: 24px; --fontMd: 16px; }
+	.logo { width: 120px; }
+	.bannerContent { display: flex; align-items: flex-start; flex-direction: column; }
+	.leftContent, .rightContent { width: 100%; }
+	.counterList:first-child { margin: 0; padding: 0; }
+	.counterList { text-align: left; padding: 0 0 0 20px; margin: 0 0 0 20px; }
+	.counterListing { justify-content: flex-start; }
+	.rightContent { margin: 30px 0 0 0; position: absolute; bottom: 0; }
+	.bannerInner { padding: 0 0 90px 0; }
+	.gridListing { flex-direction: column; }
+	.gridList { width: 100%; flex-direction: row; }
+	.gridListCard { padding: 16px; }
+	.gridListCard, .gridListImage { width: 50%; border-radius: 5px; overflow: clip; }
+	.gridList:nth-child(even) { flex-direction: row-reverse; }
+	.gridListCard a.whiteBtn { font-size: 0; padding: 8px; line-height: 1; }
+	.gridListCard a.whiteBtn i { font-size: 22px; }
+	.gridListCard .subTextBase { font-size: 14px; }
+	.imageTextWrapInner { width: 100%; }
+	.iwImage { position: relative; width: 100%; }
+	.iwImage { position: relative; width: calc(100% + 40px); top: 0px; left: -20px; }
+	.iwTextBox:before { width: 140px; bottom: auto; right: auto; left: 0; top: -95px; transform: rotate(90deg); }
+	.whyChooseList { width: 100%; }
+	.footerTop { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+	.footerLogo { width: 130px; order: 1; }
+	.footerSocialUl { width: 50%; order: 2; }
+	.footerUl { order: 3; width: 100%; padding: 20px 0; margin: 20px 0; border-top: 1px solid #FFFFFF1A; border-bottom: 1px solid #FFFFFF1A; }
+	.footerUl ul { flex-direction: column; justify-content: center; gap: 16px; }
+	.footerSocialUl ul { justify-content: flex-end; }
+	.footerBottom span { position: relative; top: 0; left: 0; transform: unset; text-align: center; width: 100%; }
+	.footerBottom { flex-direction: column-reverse; gap: 20px; }
+	.footerUl ul li a, .footerSocialUl ul a { color: #D6DBDFB2; margin: 0 19px; transition: all 0.3s; font-size: 18px; }
+	.missionVisionInner { padding: 24px; width: 100%; }
+	.missionVisionInner:before { content: ''; position: absolute; width: 100%; height: 1px; top: 50%; left: 0; background-color: #22346957; }
+	.missionVisionInner .col-lg-6:last-child .mvTextBox, .missionVisionInner .col-lg-6:first-child .mvTextBox { margin: 0; }
+	.missionVisionInner .col-lg-6:last-child .mvTextBox { margin: 24px 0 0 0; }
+	.missionVisionInner .col-lg-6:first-child .mvTextBox { margin: 0 0 24px 0; }
+	.mvTextBox { flex-direction: column; }
+	.mvIconHeading, .mvTextBox > .subTextBase { width: 100%; }
+	.coreValueList { width: calc(50% - 6px); padding: 16px; min-height: 340px; }
+	.cvHeading { height: 200px; margin: 0 0 13px 0; }
+	.timeLineBoxInner { display: flex; width: 100%; flex-direction: column; gap: 10px; }
+	.timeLineContent { width: 100%; }
+	.timeLineBox { flex-direction: row-reverse; }
+	.timeline-progress { left: 28%; }
+	.timeLineImage { height: 120px; }
+	.timeLineContent .headingBase { margin: 0; }
+	.mvIconHeading { display: flex; gap: 14px; }
+	.mvIconHeading .subTextMd { width: calc(100% - 64px); }
+	.contact-us .subBanner { height: 50vh; padding: 0 0 50px 0; }
+	.contactBoxWrapInner > .row { flex-direction: column-reverse; }
+	.contactBoxForm { padding: 24px; margin: 0 0 30px 0; }
+	.contactBoxText:before { width: 80%; left: 90%; }
+	.subBannerBgVideo:before { z-index: 0; width: 280%; }
+	.contact-us .subBannerContent { width: 90%; margin: 20px 0 0 0; }
+	.missionVision { margin: 60px 0 0 0; }
+	.subBanner { height: 80vh; padding-bottom: 0; }
+	.timeLineContent i { margin: 0; }
+	.timeline-base { background-image: url(../images/timeline-end-gray-mobile.svg); }
+	.timeline-red { background-image: url(../images/timeline-end-color-mobile.svg); }
+	.timeLineWrapper ul li:last-child { padding-bottom: 100px; }
+	.reverse .imageTextWrapInner { display: flex; flex-direction: column-reverse; }
+	.reverse .iwImage { left: -20px; right: unset; height: 230px; }
+	.reverse .iwTextBox:before { bottom: -97px; right: auto; top: auto; transform: rotate(450deg) rotateY(180deg); left: 8px; }
+	.packagesList { padding: 20px; }
+	.mpd-systems .subBanner, .engineering-and-rtoc .subBanner { height: 60vh; padding-bottom: 60px; }
+	.mpd-systems .subBannerContent { margin: 20px 0 0 0; }
+	.packagesTop { text-align: left !important; }
+	.plContentTop .subTextMd { width: calc(100% - 54px); }
+	.plContent .subTextBase { text-align: left; }
+	.plContentUl ul li { width: 100%; }
+	.packagesList { margin: 0 0 20px 0; }
+	.cmSystemList { width: 100%; }
+	.cmSystemList:nth-child(even) .cmSystemListContent, .cmSystemListContent { margin: 0; }
+	.cmSystemList .row { flex-direction: column-reverse !important; gap: 30px; }
+	.cmSystemTop { text-align: left !important; }
+	ul.tab-titles { align-items: unset; }
+	ul.tab-titles li a, .resourceListingUl ul li a { padding: 12px 18px; font-size: 12px; text-align: center; height: 100%; display: flex; align-items: center; }
+	.imageBlock, .textBlock { width: 100%; }
+	.twoGridWrapper .row { gap: 30px; }
+	.advantageList ul li { font-weight: 500; }
+	.gridBox { padding: 20px; }
+	.gridBtnWrap { gap: 12px; }
+	.gridBox { width: 100%; }
+	.imageBlock { height: 250px; }
+	.textImageWrap2 .row { flex-direction: column-reverse; }
+	.textBlock, .itTextBlock { margin: 16px 0 0 0; }
+	.itUl ul li { width: 100%; }
+	.itUl h5 { font-weight: 500; }
+	.sand-systems .subBanner { height: 60vh; padding-bottom: 0; }
+	.sand-systems .cvHeading { height: unset; }
+	.sand-systems .coreValueList:last-child { width: 100%; min-height: unset; }
+	.sand-systems .imageTextWrap:not(.ctaWrap) .iwImage { height: 250px; }
+	.sand-systems .imageTextWrap:not(.ctaWrap) .imageTextWrapInner { flex-direction: column-reverse; display: flex; }
+	.sand-systems .imageTextWrap:not(.ctaWrap) .iwTextBox:before { width: 140px; bottom: -97px; right: auto; left: 0; top: auto; transform: rotate(90deg) rotateY(180deg); }
+	.twoGridWrapper, .threeGridWrapper { max-width: 100%; }
+	.careers .textImageWrap2 .row { flex-direction: column-reverse; }
+	.careers .subBanner { height: 60vh; padding-bottom: 0; }
+	.resources .subBanner { height: 70vh; padding-bottom: 100px; }
+	.resourceTitle { position: relative; width: calc(100% - 150px); box-shadow: none; }
+	.resourceImage { height: 150px; width: 150px; }
+	.resourceList { display: flex; }
+	.resourceTitle a { position: absolute; bottom: 10px; right: 10px; }
+	.resourceTitle .subTextBase { -webkit-line-clamp: 4; }
+	.headerCta { margin: 20px 40px; }
+	.headerOption { width: 100%; }
+	.subBannerHead h3 br { display: none; }
+	.contact-us .ctaWrap .iwImage img { object-position: unset; }
+}

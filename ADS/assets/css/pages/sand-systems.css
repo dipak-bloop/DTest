@@ -1,0 +1,48 @@
+.subBanner { position: relative; z-index: 2; height: 90vh; display: flex; align-items: flex-end; padding-bottom: 100px; }
+.subBanner:before { content: ''; position: absolute; width: 100%; height: 100%; background: linear-gradient(180deg, rgba(0, 22, 39, 0.22) 58.93%, #001627 97.48%); top: 0; left: 0; z-index: 1; }
+.subBanner:after { content: ''; position: absolute; width: 100%; height: 100%; background: linear-gradient(180deg, #001627 11.83%, rgba(0, 22, 39, 0.22) 35.71%); top: 0; left: 0; z-index: 1; }
+.subBannerBgVideo { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.subBannerBgVideo:before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../../images/full-website-bg-image.svg)center center no-repeat; background-size: cover; opacity: 0.7; }
+.subBannerBgVideo video { width: 100%; height: 100%; object-fit: cover; }
+.subBannerInner { position: relative; z-index: 2; }
+.subBannerContent a { margin: 24px 0 0 0; }
+.subBannerContent .subTextMd { font-family: var(--fontSecondary); }
+
+/* coreValue css */
+.coreValue { padding: 0 0 58px 0; position: relative; z-index: 1; }
+.coreValue:before { content: ''; position: absolute; width: 100%; height: 100%; background: url(../../images/full-website-bg-image.svg) center center no-repeat; opacity: 0.28; top: 0; left: 0; z-index: -1; background-size: cover; }
+.coreValueInner { max-width: 95%; margin: 0 auto; }
+.cvHeading { width: 100%; height: 650px; position: relative; z-index: 1; border-radius: 5px; overflow: clip; border: 1px solid #ffffff54; }
+.cvImage { width: 100%; height: 100%; }
+.cvImage img { width: 100%; height: 100%; object-fit: cover; }
+.cvHeading:before { content: ''; position: absolute; width: 100%; height: 100%; background: linear-gradient(180deg, rgba(34, 52, 105, 0.73) 0%, rgba(251, 168, 27, 0.73) 100%); top: 0; left: 0; z-index: 0; }
+.cvHeading .headingXl { position: absolute; width: 100%; padding: 34px; top: 0; left: 0; z-index: 2; font-weight: 500; }
+.coreValueListing { display: flex; justify-content: flex-start; flex-wrap: wrap; gap: 12px; height: 100%; }
+.coreValueList { width: calc((100% / 3) - 8px); background-color: #22346985; padding: 24px; border-radius: 5px; border: 1px solid #FFFFFF33; }
+.coreValueInner .col-lg-4, .coreValueInner .col-lg-8 { padding: 0 6px !important; }
+.cvlIndex { width: 32px; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; border-radius: 5px; color: var(--colorPrimary); background-color: var(--colorSecondary); font-weight: 500; font-family: var(--fontSecondary); }
+.cvlTextBox { margin: 24px 0 0 0; }
+.cvlTextBox .headingBase { color: var(--colorSecondary); margin: 0 0 14px 0; letter-spacing: 0.6px; }
+.cvlTextBox .subTextBase { color: #EEEEEE; letter-spacing: 0.8px; }
+.coreValueTop { margin: 0 0 44px 0; }
+.coreValueTop .headingXl { color: var(--colorSecondary); margin: 0 0 18px 0; }
+.coreValueTop .subTextMd { font-family: var(--fontSecondary); font-weight: 300; letter-spacing: 0.9px; }
+
+/* .imageTextWrap css */
+.imageTextWrap { margin: 0; }
+
+/* grid css */
+.twoGridWrapper, .threeGridWrapper { padding: 84px 0; max-width: 95%; }
+.gridBox { border: 1px solid #959EA2CC; background: #2234693D; padding: 24px 34px 34px 34px; height: 100%; border-radius: 6px; }
+.gridBox h5 { margin: 0 0 24px 0; color: var(--colorSecondary); text-transform: uppercase; font-family: var(--fontPrimary); }
+.gridBox ul li { font-size: var(--fontSm); font-weight: 500; text-transform: uppercase; letter-spacing: 1px; color: var(--colorBgLight); position: relative; padding: 0 0 0 34px; margin: 0 0 14px 0; }
+.gridBox ul li:before { content: ''; position: absolute; width: 22px; height: 22px; background: url(../../images/tick-icon.svg) center center no-repeat; background-color: #EAEFF329; border-radius: 3px; display: flex; align-items: center; justify-content: center; left: 0; top: -1px; }
+.gridBtnWrap { margin: 54px 0 0 0; display: flex; align-items: center; justify-content: center; gap: 24px; }
+.gridWrap { position: relative; z-index: 1; }
+.gridWrap:before { content: ''; position: absolute; width: 100%; height: 100%; background: url(../../images/full-website-bg-image.svg)center center no-repeat; background-size: cover; z-index: -1; opacity: 0.28; }
+
+
+/*  */
+.ctaWrap .iwImage img {
+    object-position: 0 -50px;
+}

@@ -1,0 +1,224 @@
+/* Font declaration */
+
+/* Paralucent font */
+@font-face { font-family: 'Paralucent'; src: url('../webfonts/Paralucent/Paralucent-Bold.woff2') format('woff2'), url('../webfonts/Paralucent/Paralucent-Bold.woff') format('woff'); font-weight: bold; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Paralucent'; src: url('../webfonts/Paralucent/Paralucent-BoldItalic.woff2') format('woff2'), url('../webfonts/Paralucent/Paralucent-BoldItalic.woff') format('woff'); font-weight: bold; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Paralucent Demi'; src: url('../webfonts/Paralucent/Paralucent-DemiBold.woff2') format('woff2'), url('../webfonts/Paralucent/Paralucent-DemiBold.woff') format('woff'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Paralucent Demi'; src: url('../webfonts/Paralucent/Paralucent-DemiBoldItalic.woff2') format('woff2'), url('../webfonts/Paralucent/Paralucent-DemiBoldItalic.woff') format('woff'); font-weight: 600; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Paralucent Extra'; src: url('../webfonts/Paralucent/Paralucent-ExtraLight.woff2') format('woff2'), url('../webfonts/Paralucent/Paralucent-ExtraLight.woff') format('woff'); font-weight: 200; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Paralucent Extra'; src: url('../webfonts/Paralucent/Paralucent-ExtraLightItalic.woff2') format('woff2'), url('../webfonts/Paralucent/Paralucent-ExtraLightItalic.woff') format('woff'); font-weight: 200; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Paralucent'; src: url('../webfonts/Paralucent/Paralucent-Heavy.woff2') format('woff2'), url('../webfonts/Paralucent/Paralucent-Heavy.woff') format('woff'); font-weight: 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Paralucent'; src: url('../webfonts/Paralucent/Paralucent-HeavyItalic.woff2') format('woff2'), url('../webfonts/Paralucent/Paralucent-HeavyItalic.woff') format('woff'); font-weight: 900; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Paralucent'; src: url('../webfonts/Paralucent/Paralucent-Light.woff2') format('woff2'), url('../webfonts/Paralucent/Paralucent-Light.woff') format('woff'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Paralucent'; src: url('../webfonts/Paralucent/Paralucent-LightItalic.woff2') format('woff2'), url('../webfonts/Paralucent/Paralucent-LightItalic.woff') format('woff'); font-weight: 300; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Paralucent'; src: url('../webfonts/Paralucent/Paralucent-Medium.woff2') format('woff2'), url('../webfonts/Paralucent/Paralucent-Medium.woff') format('woff'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Paralucent'; src: url('../webfonts/Paralucent/Paralucent-MediumItalic.woff2') format('woff2'), url('../webfonts/Paralucent/Paralucent-MediumItalic.woff') format('woff'); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Paralucent'; src: url('../webfonts/Paralucent/Paralucent-Thin.woff2') format('woff2'), url('../webfonts/Paralucent/Paralucent-Thin.woff') format('woff'); font-weight: 100; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Paralucent'; src: url('../webfonts/Paralucent/Paralucent-ThinItalic.woff2') format('woff2'), url('Paralucent-ThinItalic.woff') format('woff'); font-weight: 100; font-style: italic; font-display: swap; }
+
+/* Transducer font */
+@font-face { font-family: 'Transducer'; src: url('../webfonts/Transducer/Transducer-Black.woff2') format('woff2'), url('../webfonts/Transducer/Transducer-Black.woff') format('woff'); font-weight: 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Transducer'; src: url('../webfonts/Transducer/Transducer-BlackOblique.woff2') format('woff2'), url('../webfonts/Transducer/Transducer-BlackOblique.woff') format('woff'); font-weight: 900; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Transducer'; src: url('../webfonts/Transducer/Transducer-Bold.woff2') format('woff2'), url('../webfonts/Transducer/Transducer-Bold.woff') format('woff'); font-weight: bold; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Transducer'; src: url('../webfonts/Transducer/Transducer-BoldOblique.woff2') format('woff2'), url('../webfonts/Transducer/Transducer-BoldOblique.woff') format('woff'); font-weight: bold; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Transducer'; src: url('../webfonts/Transducer/Transducer-Hairline.woff2') format('woff2'), url('../webfonts/Transducer/Transducer-Hairline.woff') format('woff'); font-weight: 100; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Transducer'; src: url('../webfonts/Transducer/Transducer-HairlineOblique.woff2') format('woff2'), url('../webfonts/Transducer/Transducer-HairlineOblique.woff') format('woff'); font-weight: 100; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Transducer'; src: url('../webfonts/Transducer/Transducer-Medium.woff2') format('woff2'), url('../webfonts/Transducer/Transducer-Medium.woff') format('woff'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Transducer'; src: url('../webfonts/Transducer/Transducer-MediumOblique.woff2') format('woff2'), url('../webfonts/Transducer/Transducer-MediumOblique.woff') format('woff'); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Transducer'; src: url('../webfonts/Transducer/Transducer-Regular.woff2') format('woff2'), url('../webfonts/Transducer/Transducer-Regular.woff') format('woff'); font-weight: normal; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Transducer'; src: url('../webfonts/Transducer/Transducer-Oblique.woff2') format('woff2'), url('../webfonts/Transducer/Transducer-Oblique.woff') format('woff'); font-weight: normal; font-style: italic; font-display: swap; }
+
+/* RESET CSS */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html:focus-within { scroll-behavior: smooth; }
+body { min-height: 100vh; text-rendering: optimizeSpeed; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: var(--fontSecondary); font-size: var(--fontBase); font-weight: 300; background-color: var(--colorBg); }
+img, picture, video, canvas, svg { display: block; max-width: 100%; }
+input, button, textarea, select { font: inherit; }
+a { text-decoration: none; color: inherit; }
+ul, ol { list-style: none; margin: 0; padding: 0; }
+button { background: none; border: none; cursor: pointer; }
+table { border-collapse: collapse; width: 100%; }
+:root { --fontPrimary: 'Transducer'; --fontSecondary: 'Paralucent'; --colorPrimary: #223469; --colorSecondary: #FBA81B; --colorBg: #001627; --colorBgLight: #EAEFF3; --colorText: #78859B; --colorText2:#D6DBDF; --colorWhite: #ffffff; --colorBlack: #000000; --fontXs: 12px; --fontSm: 14px; --fontBase: 16px; --fontMd: 18px; --fontLg: 20px; --fontXl: 24px; --font2xl: 28px; --font3xl: 32px; --font4xl: 36px; }
+.heading4xl { font-family: var(--fontPrimary); font-size: var(--font4xl); font-weight: 400; color: var(--colorText2); margin: 0; }
+.heading3xl { font-family: var(--fontPrimary); font-size: var(--font3xl); font-weight: 400; color: var(--colorText2); text-transform: uppercase; margin: 0; }
+.headingXl { font-family: var(--fontPrimary); font-size: var(--fontXl); font-weight: 300; color: var(--colorText2); text-transform: uppercase; margin: 0; }
+.headingLg { font-family: var(--fontPrimary); font-size: var(--fontLg); color: var(--colorPrimary); font-weight: 600; text-transform: uppercase; }
+.headingBase { font-size: var(--fontBase); font-weight: 500; color: var(--colorPrimary); text-transform: uppercase; font-family: var(--fontPrimary); margin: 0; }
+.subTextMd { font-family: var(--fontPrimary); font-size: var(--fontMd); color: var(--colorText2); font-weight: 300; display: block; margin: 0; }
+.subTextSm { font-size: var(--fontSm); color: var(--colorSecondary); font-weight: 300; text-transform: uppercase; margin: 0; }
+.subTextBase { font-family: var(--fontSecondary); font-size: var(--fontBase); color: var(--colorText); font-weight: 300; display: block; margin: 0; }
+.whiteBtn { display: inline-block; padding: 12px 26px; border: 1px solid #C3C8D5; border-radius: 5px; color: var(--colorPrimary); font-family: var(--fontSecondary); font-weight: 300; transition: all 0.5s; background-color: var(--colorWhite); }
+.whiteBtn:hover { background-color: var(--colorSecondary); }
+.whiteBorderBtn { display: flex; align-items: center; gap: 10px; width: max-content; padding: 12px 26px; border: 1px solid #eaeff352; border-radius: 5px; color: var(--colorWhite); font-family: var(--fontSecondary); font-weight: 300; transition: all 0.5s; background-color: var(--colorBg); }
+.whiteBorderBtn:hover { background-color: var(--colorSecondary); color: var(--colorPrimary); border: 1px solid #eaeff3a3; }
+.secondaryBtn { display: flex; align-items: center; gap: 10px; width: max-content; padding: 12px 26px; border: 1px solid #eaeff3a3; border-radius: 5px; color: var(--colorPrimary); font-family: var(--fontSecondary); font-weight: 400; transition: all 0.5s; background-color: var(--colorSecondary); }
+.secondaryBtn i, .primaryBtn i { transition: all 0.5s; }
+.secondaryBtn:hover i, .primaryBtn:hover i { transform: translateX(5px); }
+.secondaryBtn:hover { background-color: #FFF4E2; }
+.primaryBtn { display: inline-block; padding: 12px 26px; border: 1px solid #152144; border-radius: 5px; color: var(--colorWhite); font-family: var(--fontSecondary); font-weight: 300; transition: all 0.5s; background-color: var(--colorPrimary); }
+.primaryBtn:hover { background-color: #3B5AB5 }
+.needYellowShad { position: relative; }
+.needYellowShad:before { content: ''; position: absolute; width: 100%; height: 100%; object-fit: cover; background: linear-gradient(180deg, rgba(34, 52, 105, 0.34) 0%, rgba(251, 168, 27, 0.34) 100%); top: 0; left: 0; }
+.dotedBg { position: fixed; width: 100%; height: 100%; z-index: 0; }
+.dotedBg { background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 10px 10px; opacity: 0.28; }
+
+/* === HEADER CSS START === */
+header { padding: 12px 0; border-top: 2px solid var(--colorSecondary); position: fixed; top: 0; width: 100%; z-index: 10; background: var(--colorBg); border-bottom: 1px solid #EAEFF32E; backdrop-filter: blur(12px) }
+
+/* header:before {
+content: '';
+position: absolute;
+width: 100%;
+height: 100%;
+background: linear-gradient(0deg, rgb(0 22 39 / 0%) 58.93%, #001627 97.48%);
+top: 100%;
+left: 0;
+z-index: -1;
+} */
+
+/* header:after{
+content: '';
+position: absolute;
+width: 100%;
+height: 1px;
+background-color: #EAEFF32E;
+bottom: 0;
+left: 0;
+z-index: 2;
+
+} */
+.headerWrap { display: flex; align-items: center; justify-content: space-between; }
+.toggleBtn { display: none; }
+.current_page_item a { color: var(--colorSecondary); }
+@media (min-width:1025px) {
+nav ul { list-style: none; padding: 0; margin: 0; transition: all 0.3s; }
+nav>ul { display: flex; gap: 40px; }
+nav li { position: relative; }
+nav li a { color: var(--colorText2); position: relative; display: inline-block; padding: 5px 0px; text-decoration: none; transition: all 0.3s; position: relative; }
+nav li a:before { content: ''; position: absolute; width: 0; height: 1px; background-color: var(--colorSecondary); transition: all 0.3s; left: 0; bottom: 5px; }
+nav li a:hover { color: var(--colorSecondary); }
+nav li a:hover:before, .current_page_item a:before { width: 100%; }
+nav ul ul { position: absolute; background-color: var(--colorWhite); box-shadow: 0 7px 10px #00000061; border-radius: 5px; overflow: hidden; transform: translateY(20px); opacity: 0; visibility: hidden; transition: all 0.3s; pointer-events: none; }
+nav>ul>li:hover ul { opacity: 1; visibility: visible; transform: translateY(0); pointer-events: auto; }
+li.hasUl a { padding-right: 25px !important; }
+li.hasUl a:before { content: '\ea13'; font-family: "remixicon"; font-style: normal; position: absolute; top: 10px; right: 7px; font-size: 14px; }
+.headerOption { display: flex; align-items: center; gap: 50px; }
+}
+@media (max-width:1024px) {
+.headerOption { position: fixed; top: 0; right: 0; width: 400px; height: 100vh; background-color: #E9EDF2 !important; transform: translateX(100%); transition: all 0.3s; list-style: none; padding: 140px 0 0 0; margin: 0; }
+.headerOption.openMenu { transform: translateX(0); }
+nav ul li a { display: inline-block; width: 100%; margin: 20px 40px; font-size: 22px; color: var(--colorBlack); text-decoration: none; }
+.toggleBtn { display: flex; width: 40px; height: 40px; background-color: var(--colorBg); align-items: center; justify-content: center; gap: 5px; flex-direction: column; position: relative; z-index: 10; border-radius: 5px; border: 1px solid #FFFFFF4D; }
+.toggleBtn span { width: 20px; height: 1px; background-color: var(--colorWhite); display: block; border-radius: 80px; transition: all 0.3s; }
+.toggleBtn.closeBtn span:first-child { transform: rotate(45deg) translate(4px, 4px); }
+.toggleBtn.closeBtn span:last-child { transform: rotate(-45deg) translate(4px, -4px); }
+.toggleBtn span:nth-child(2) { transition: all 0.3s; }
+.toggleBtn.closeBtn span:nth-child(2) { opacity: 0; visibility: hidden; }
+}
+
+/* === HEADER CSS END === */
+
+/* ctaWrap css */
+.ctaWrap { margin: 0 !important; }
+.ctaWrap .iwImage img { object-position: bottom; }
+.ctaWrap .iwImage:before { display: none; }
+.ctaWrap .iwTextBox .subTextBase { margin: 24px 0; }
+.ctaWrap .iwTextBox .headingLg { font-weight: 700; }
+
+/* imageTextWrap css */
+.imageTextWrap { margin: 80px 0 0 0; background-color: var(--colorSecondary); position: relative; z-index: 1; overflow: clip; }
+.iwImage { position: absolute; width: 50%; height: 100%; top: 0; left: 0; }
+.iwImage:before { content: ''; position: absolute; width: 100%; height: 100%; top: 0; left: 0; background: linear-gradient(180deg, rgba(34, 52, 105, 0.34) 0%, rgba(251, 168, 27, 0.34) 100%); }
+.iwImage img { width: 100%; height: 100%; object-fit: cover; }
+.imageTextWrapInner { width: calc(50% - 44px); margin-left: auto; }
+.iwTextBox { padding: 50px 0; position: relative; }
+.iwTextBox:before { content: ''; position: absolute; width: 30px; height: 180px; background: url(../images/shap.svg)center center no-repeat; background-size: contain; bottom: 0; right: calc(100% + 35px); }
+.iwTextBox .subTextBase { color: #001627B8; font-weight: 400; margin: 24px 0 46px; }
+.iwTextBoxUl { padding: 0 0 0 25px; border-left: 1px solid var(--colorBgLight); }
+.iwTextBoxUl li { position: relative; padding: 0 0 0 34px; margin: 10px 0; text-transform: uppercase; color: var(--colorPrimary); font-weight: 400; }
+.iwTextBoxUl li:before { content: ''; position: absolute; width: 22px; background: url(../images/tick-icon.svg)center center no-repeat; background-size: 14px; height: 22px; background-color: var(--colorPrimary); border-radius: 5px; display: flex; align-items: center; justify-content: center; top: 0; left: 0; }
+.iwTextBoxUl span { color: #202836; text-transform: uppercase; font-weight: 500; }
+.reverse .iwImage { left: auto; right: 0; }
+.reverse .iwImage:before { display: none; }
+.reverse .imageTextWrapInner { margin-right: auto; margin-left: 0; }
+.reverse .iwTextBox:before { bottom: auto; right: -67px; transform: rotate(180deg); top: 0; }
+.reverse .iwTextBoxUl { margin: 24px 0 0 0; }
+
+/* footer css */
+footer { margin: 24px 0 40px 0; }
+.footerTop { display: flex; align-items: center; justify-content: space-between; }
+.footerSocialUl ul, .footerUl ul { display: flex; align-items: center; }
+.footerUl ul li a, .footerSocialUl ul a { color: var(--colorText2); margin: 0 19px; transition: all 0.3s; }
+.footerSocialUl ul li:last-child a { margin: 0 0 0 19px; }
+.footerUl ul li a:hover { color: var(--colorSecondary); }
+.footerBottom { display: flex; align-items: center; justify-content: flex-end; position: relative; }
+.footerBottom span { color: var(--colorText); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+/* subBanner common css */
+.subBanner { overflow: clip; }
+.subBannerContent a { display: flex; align-items: center; width: max-content; gap: 10px; }
+.subBannerContent a i { writing-mode: sideways-rl; }
+
+/* form design */
+.formTop .headingXl { color: var(--colorSecondary); }
+.formTop .subTextMd { font-family: 'Paralucent'; margin: 24px 0 44px 0; letter-spacing: 0.5px; }
+.inputField label { display: block; text-transform: uppercase; color: var(--colorBgLight); }
+.inputField label span { color: var(--colorSecondary); }
+.inputField input, .inputField textarea { width: 100%; background-color: #959EA233; border: none; padding: 10px 14px; border-radius: 5px; margin: 8px 0 0 0; outline: none; border: 1px solid #959EA233; color: var(--colorText2); }
+.inputField input:focus, .inputField textarea:focus { border: 1px solid var(--colorSecondary); }
+.inputField textarea { height: 100px; }
+.inputField { margin: 24px 0 0 0; }
+.formWrap .secondaryBtn { margin: 24px 0 0 0; }
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.payment-required .wpcf7-response-output { border-color: #fba81b; background-color: #fba81b; padding: 8px 12px; line-height: 1; border-radius: 5px; }
+
+/* =============== back to top button css ================== */
+.backTop { position: fixed; bottom: 30px; right: 30px; opacity: 0; visibility: hidden; transition: all 0.8s; z-index: 10; }
+.backTop.activeBackToTop { opacity: 1; visibility: visible; }
+.backTop a svg { display: block; }
+.backTop a { text-align: center; border: 2px solid var(--colorSecondary); width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; flex-direction: column; text-decoration: none; font-size: 12px; font-weight: 600; text-transform: uppercase; border-radius: 5px; position: relative; animation: topBtnBounce 2s ease-in-out infinite; color: var(--colorText2); background-color: var(--colorPrimary); font-weight: 400; }
+.backTop:before { content: ''; position: absolute; width: 100%; height: 15px; bottom: -20px; border-radius: 50%; background-image: radial-gradient(#ffffff -50%, transparent 100%); filter: blur(3px); animation: boxshadowAnimate 2s linear infinite; }
+.wpcf7-not-valid-tip { position: absolute; font-size: 12px; }
+@keyframes topBtnBounce {
+0% { transform: translateY(0); }
+50% { transform: translateY(-15px); }
+100% { transform: translateY(0) }
+}
+@keyframes boxshadowAnimate {
+0%, 100% { opacity: 1; scale: 1; }
+25% { opacity: 0.6; transform: scale(0.6); }
+50% { opacity: 0.2; transform: scale(0.2); }
+75% { opacity: 0.6; transform: scale(0.6); }
+}
+
+/*============ privacy-policy page css ========*/
+.privacy-policy .subBanner { position: relative; z-index: 2; height: 50vh; display: flex; align-items: flex-end; padding: 0 0 100px 0; }
+.subBanner:before { content: ''; position: absolute; width: 100%; height: 100%; background: linear-gradient(180deg, rgba(0, 22, 39, 0.22) 58.93%, #001627 97.48%); top: 0; left: 0; z-index: 1; }
+.subBanner:after { content: ''; position: absolute; width: 100%; height: 100%; background: linear-gradient(180deg, #001627 11.83%, rgba(0, 22, 39, 0.22) 35.71%); top: 0; left: 0; z-index: 1; }
+.subBannerBgVideo { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.subBannerBgVideo:before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../../images/full-website-bg-image.svg)center center no-repeat; background-size: cover; opacity: 0.7; }
+.subBannerBgVideo:after { content: ''; position: absolute; width: 100%; height: 100%; background: #22346959; mix-blend-mode: multiply; top: 0; left: 0; }
+.privacy-policy .subBannerBgVideo video { width: 100%; height: 100%; object-fit: cover; object-position: 0 -80px; }
+.subBannerInner { position: relative; z-index: 2; }
+.subBannerContent a { margin: 24px 0 0 0; }
+.subBannerContent .subTextMd { font-family: var(--fontSecondary); }
+
+/* pageContent css */
+.pageContentInner { background-color: #2234693D; border: 1px solid #959EA2CC; padding: 34px; color: var(--colorBgLight); }
+
+/*  */
+.privacy-policy .pageContentInner p strong { text-transform: uppercase; font-size: 18px; font-weight: 400; font-family: var(--fontPrimary); }
+.privacy-policy .pageContentInner p a { color: var(--colorSecondary); }
+.privacy-policy .pageContentInner p { font-family: var(--fontSecondary); font-size: 18px; font-weight: 300; color: var(--colorBgLight); margin: 0 0 16px 0; }
+.privacy-policy .pageContentInner h2, .privacy-policy h3 { color: var(--colorSecondary); font-family: var(--fontPrimary); font-weight: 400; }
+.privacy-policy .pageContentInner h2 { font-size: 18px; }
+.privacy-policy .pageContentInner h3 { font-size: 22px; }
+.privacy-policy .pageContentInner ul { list-style: disc; margin: 0 0 16px 20px; }
+.privacy-policy .pageContentInner ul li::marker { color: var(--colorBgLight) !important; }
+.terms-conditions .pageContentInner p strong { text-transform: uppercase; font-size: 18px; font-weight: 400; font-family: var(--fontPrimary); }
+.terms-conditions .pageContentInner p a { color: var(--colorSecondary); }
+.terms-conditions .pageContentInner p { font-family: var(--fontSecondary); font-size: 18px; font-weight: 300; color: var(--colorBgLight); margin: 0 0 16px 0; }
+.terms-conditions .pageContentInner h2, .privacy-policy h3 { color: var(--colorSecondary); font-family: var(--fontPrimary); font-weight: 400; }
+.terms-conditions .pageContentInner h2 { font-size: 18px; }
+.terms-conditions .pageContentInner h3 { font-size: 22px; }
+.terms-conditions .pageContentInner ul { list-style: disc; margin: 0 0 16px 20px; }
+.terms-conditions .pageContentInner ul li::marker { color: var(--colorBgLight) !important; }

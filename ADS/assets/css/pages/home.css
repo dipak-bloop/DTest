@@ -1,0 +1,54 @@
+/* === BANNER CSS START === */
+.banner { position: relative; z-index: 2; height: 90vh; display: flex; align-items: flex-end; padding: 0 0 100px 0; }
+.banner:before { content: ''; position: absolute; width: 100%; height: 100%; background: linear-gradient(180deg, rgba(0, 22, 39, 0.22) 58.93%, #001627 97.48%); top: 0; left: 0; z-index: 1; }
+.banner:after { content: ''; position: absolute; width: 100%; height: 100%; background: linear-gradient(180deg, #001627 11.83%, rgba(0, 22, 39, 0.22) 47.71%); top: 0; left: 0; z-index: 1; }
+.bannerBgVideo { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.bannerBgVideo:before { content: ''; position: absolute; width: 100%; height: 100%; background: url(../../images/full-website-bg-image.svg)center center no-repeat; background-size: cover; }
+.bannerBgVideo video { width: 100%; height: 100%; object-fit: cover; }
+.bannerInner { position: relative; z-index: 2; }
+.bannerContent { display: flex; align-items: flex-end; }
+.leftContent .subTextMd { margin: 18px 0 0 0; }
+.leftContent, .rightContent { width: 50%; }
+.bannerCta { margin: 34px 0 0 0; }
+.counterListing { display: flex; justify-content: flex-end; }
+.counterList { text-align: center; }
+.counterList { text-align: center; padding: 0 0 0 40px; margin: 0 0 0 40px; position: relative; }
+.counterList:before { content: ''; position: absolute; width: 1px; height: 70%; background-color: #959EA2CC; left: 0; top: 50%; transform: translateY(-50%); }
+.counterList:first-child:before { display: none; }
+
+/* === BANNER CSS END === */
+
+/* gridWrapper css */
+.gridListing { display: flex; gap: 12px; }
+.gridList { width: calc(100% / 3); display: flex; flex-direction: column; gap: 12px; }
+.gridListCard { background-color: var(--colorBgLight); padding: 24px; padding-top: 170px; position: relative; overflow: clip; border-radius: 5px; }
+.gridListImage img { width: 100%; height: 100%; }
+.gridList:nth-child(even) { flex-direction: column-reverse; }
+.gridListCard .headingBase { position: relative; transform: translateX(0); transition: all 0.5s; }
+.gridListCard:hover .headingBase { transform: translateX(20px); }
+.gridListCard:hover .headingBase:before { transform: translateX(0); visibility: visible; opacity: 1; }
+.gridListCard .headingBase:before { content: ''; position: absolute; background: url(../../images/right-icon-primary.svg)center center no-repeat; top: 0; width: 14px; height: 22px; background-size: contain; right: calc(100% + 5px); opacity: 0; visibility: hidden; transform: translateX(-10px); transition: all 0.5s; }
+.gridListCard .subTextBase { padding: 14px 0 22px 0; }
+.ListCardIcon { width: 44px; height: 44px; background-color: #D8DBE3; display: flex; align-items: center; justify-content: center; border-radius: 7px; margin: 0 0 22px 0; transition: all 0.5s; }
+.gridListCard:hover .ListCardIcon { background-color: var(--colorPrimary); }
+.ListCardBg { position: absolute; top: 0; right: 0; mix-blend-mode: darken; opacity: 0.6; }
+.gridListImage { position: relative; }
+.gridListImage:before { content: ''; position: absolute; width: 100%; height: 100%; background: linear-gradient(180deg, rgba(34, 52, 105, 0.34) 0%, rgba(251, 168, 27, 0.34) 100%); top: 0; left: 0; }
+
+/* whyChoose css */
+.whyChoose { position: relative; z-index: 1; overflow: clip; padding: 80px 0; }
+.whyChoose:before { content: ''; position: absolute; width: 100%; height: 100%; background: url(../../images/full-website-bg-image.svg) center center no-repeat; background-size: cover; top: 0; left: 0; z-index: -1; opacity: 0.28; }
+.whyChooseListing { margin: 40px 0 0 0; display: flex; flex-wrap: wrap; gap: 18px; justify-content: space-between; }
+.whyChooseList { width: calc((100% /3) - 12px); border: 1px solid #184B72; border-radius: 5px; overflow: clip; position: relative; background-color: #183658; transition: all 0.3s; }
+.whyChooseList:hover { background-color: var(--colorBgLight); }
+.whyChooseList:hover .wcListImage { opacity: 0.5; }
+.wcListImage img { width: 100%; height: 100%; object-fit: cover; -webkit-mask-image: radial-gradient(126.43% 126.43% at 50% -26.43%, #fff 18.08%, transparent 85%); mask-image: radial-gradient(126.43% 126.43% at 50% -26.43%, #fff 18.08%, transparent 85%); -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; -webkit-mask-size: 100% 100%; mask-size: 100% 100%; }
+.wcListContent { position: absolute; width: 100%; height: 100%; z-index: 1; top: 0; left: 0; display: flex; flex-direction: column; justify-content: space-between; padding: 22px; }
+.whyChooseList:hover .wcListContent .wcListText .headingBase { color: var(--colorPrimary); }
+.wcListIcon { width: 40px; height: 40px; background-color: var(--colorSecondary); display: flex; align-items: center; justify-content: center; border-radius: 5px; transition: all 0.3s; }
+.whyChooseList:hover .wcListIcon { background-color: #56689F; }
+.wcListText .headingBase { color: var(--colorWhite); transition: all 0.3s; font-weight: 400; }
+.wcListText .subTextBase { margin: 20px 0 0 0; opacity: 0; visibility: hidden; transition: all 0.5s; }
+.wcListText { transform: translateY(60px); transition: all 0.5s; }
+.whyChooseList:hover .wcListText { transform: translate(0); }
+.whyChooseList:hover .wcListText .subTextBase { opacity: 1; visibility: visible; }
